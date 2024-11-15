@@ -1,0 +1,38 @@
+# Ignorar archivos de NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Ignorar archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones específicas del IDE
+*.iml
+*.ipr
+*.iws
+
+# Ignorar archivos generados por Maven o Gradle (si usas alguno de ellos en NetBeans)
+target/
+.gradle/
+build/
+
+# Ignorar configuraciones de Eclipse (si compartes con usuarios de Eclipse)
+.project
+.classpath
+.settings/
+
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
+*.swp
+*.swo
